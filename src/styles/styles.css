@@ -1,0 +1,50 @@
+.center-align {
+	margin: auto;
+	text-align: center;
+}
+.container-fluid1 {
+	width: 95%;
+	margin: auto;
+	position: relative;
+	top: 4em;
+}
+.page-style {
+	margin-top: 10px;
+}
+.jumbo-float {
+	position: absolute;
+	display: inline-block;
+	z-index: 100;
+}
+.text-justify {
+	text-align: justify;
+}
+
+.header1 {
+	margin-bottom: 2em;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.pageHeader {
+	font-size: 4em;
+	font-style: oblique;
+	margin: 0;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color: #93a3bc;
+	text-shadow: 3px 2px #2b3442;
+	width: 100%;
+}
+
+.jumbo-center {
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+.footer-text {
+	color: white;
+	font-family: Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic,
+		Arial, sans-serif;
+}
