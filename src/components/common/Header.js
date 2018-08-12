@@ -39,18 +39,18 @@ export default class Header extends React.Component {
 								<Link
 									onClick={this.toggleNavbar}
 									style={{ textDecoration: 'none' }}
-									to="/projects"
+									to="/work"
 								>
-									<NavLink>Projects</NavLink>
+									<NavLink>Work</NavLink>
 								</Link>
 							</NavItem>
 							<NavItem>
 								<Link
 									onClick={this.toggleNavbar}
 									style={{ textDecoration: 'none' }}
-									to="/work"
+									to="/projects"
 								>
-									<NavLink>Work</NavLink>
+									<NavLink>Projects</NavLink>
 								</Link>
 							</NavItem>
 							<NavItem>

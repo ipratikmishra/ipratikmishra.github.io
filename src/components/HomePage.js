@@ -9,71 +9,76 @@ import {
 	Badge
 } from 'reactstrap';
 import '../styles/homePage.css';
-import MyPicture from '../assets/PratikMishra.jpg';
+import MyPicture from '../assets/mypic.png';
 import Picture2 from '../assets/awards.png';
 import Picture1 from '../assets/work.JPG';
 import Picture3 from '../assets/travel.jpg';
+import Picture4 from '../assets/chicago.jpg';
 
 class HomePage extends Component {
 	render() {
 		return (
 			<div>
 				<br />
-				<Jumbotron>
-					<h1 className="display-1">Pratik Mishra</h1>
-					<p className="lead">
-						Computer Science Graduate student at Arizona State University
-					</p>
-					<hr className="my-2" />
-					<p>Feel free to explore around my webpage to learn more about me!</p>
-					<p className="lead">
-						<Button href="#readme" color="primary">
-							Get to know me!
-						</Button>
-					</p>
-				</Jumbotron>
-				<Container>
+				<Jumbotron style={{ marginBottom: '0px', marginTop: '1em' }}>
 					<Row>
-						<Col xs="12" sm="12" md="4">
-							<img
-								top
-								width="80%"
-								className="rounded-6 border-10 img-thumbnail jumbo-center"
-								src={MyPicture}
-							/>
-							<br />
-							<br />
+						<Col xs="12" sm="12" md="3">
+							<img top width="80%" className="jumbo-center" src={MyPicture} />
 						</Col>
-						<Col xs="12" md="8">
-							<p id="readme">
-								Hey there! I am Pratik. I live in Phoenix, Arizona where I
-								currently attend Arizona State University for my Master's in
-								Computer Science. I am looking forward to gaining industry
-								experience by working as an intern in the field of Software
-								Development. My past industry experience as an SDE intern has
-								led me to work with the latest frameworks in the industry like
-								React.js and Redux. The experience has bought a lot of insight
-								into the finer details of a software project at a global level.
-								<br />
-								<br />
-								I currently work as a Student Web Developer for the Herberger
-								Institute for Design and the Arts at Arizona State University.
-								My work involves developing multiple web applications using PHP,
-								JavaScript, HTML5 and CSS3 along with reviewing and revising
-								existing code to bring them up to current standards.
-								<br />
-								<br />
-								I Intend to build a challenging career and work diligently in a
-								dynamic and growth-oriented organization that provides exposure
-								to new technologies and stimulates professional growth. I am
-								passionate about the world of technology.
+						<Col xs="12" md="9">
+							<h1 className="display-1">Pratik Mishra</h1>
+							<p className="lead">
+								Computer Science Graduate student at Arizona State University
 							</p>
-							<br />
-							<br />
+							<hr className="my-2" />
+							<p>
+								Feel free to explore around my webpage to learn more about me!
+							</p>
+							<p className="lead">
+								<Button href="#readmetext" color="primary">
+									Get to know me!
+								</Button>
+							</p>
 						</Col>
 					</Row>
-				</Container>
-				<br />
+				</Jumbotron>
+				<div class="bg-img">
+					<Container>
+						<Row>
+							<Col xs="12" sm="12" md="5">
+								<br />
+								<br />
+							</Col>
+							<Col xs="12" md="7">
+								<div id="readmetext">
+									<p>
+										Hey there! I am Pratik. I live in Phoenix, Arizona where I
+										currently attend Arizona State University for my Master's in
+										Computer Science. I love buildiing softwares using the
+										latest technologies. For the summer of 2018, I joined
+										Walgreens as a Software Engineering Intern in Chicago, IL. I
+										worked in an Agile (Scrum) environment and delivered
+										according to application requirements for every story. I
+										worked on a project that inlcuded developing a REST-based
+										microservice using Spring Boot that could invoke a service
+										broker using SOAP protocol and provides REST services to a
+										front-end client, that I built using Angular 5. My
+										experience with Web developement also includes working as a
+										SDE intern with frameworks such as React.js and Redux.
+										<br />
+										I currently work as a Student Web Developer for the
+										Herberger Institute for Design and the Arts at Arizona State
+										University. My work involves developing multiple web
+										applications using ASP.NET MVC, JavaScript, HTML5 and CSS3
+										along with reviewing and revising existing code to bring
+										them up to current standards.
+									</p>
+								</div>
+							</Col>
+						</Row>
+					</Container>
+				</div>
+
 				<Jumbotron>
 					<div className="jumbo-center">
 						<Row>
@@ -130,6 +135,7 @@ class HomePage extends Component {
 						</Row>
 					</div>
 				</Jumbotron>
+				<br />
 				<Container>
 					<h1 className="center-align">
 						<Badge color="secondary">Technical Skills</Badge>
@@ -139,10 +145,10 @@ class HomePage extends Component {
 						<Col xs="6">
 							<div>
 								<h6> Java </h6>
-								<Progress animated value={95} />
+								<Progress animated value={90} />
 								<hr />
 								<h6> Python </h6>
-								<Progress animated color="info" value={90} />
+								<Progress animated color="info" value={85} />
 								<hr />
 								<h6> C++ </h6>
 								<Progress animated color="success" value={80} />
@@ -166,10 +172,10 @@ class HomePage extends Component {
 								<Progress animated value={90} />
 								<hr />
 								<h6> Angular </h6>
-								<Progress animated color="success" value={60} />
+								<Progress animated color="success" value={85} />
 								<hr />
 								<h6> Big Data </h6>
-								<Progress animated color="info" value={70} />
+								<Progress animated color="info" value={75} />
 								<br />
 							</div>
 						</Col>

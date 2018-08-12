@@ -31,7 +31,7 @@ const Resume = () => (
 					<div className="tablerow">
 						<span>Arizona State University, Tempe</span>
 						<span className="right">
-							<strong>GPA: 3.78/4.0</strong>
+							<strong>GPA: 3.56/4.0</strong>
 						</span>
 					</div>
 				</div>
@@ -58,6 +58,39 @@ const Resume = () => (
 		</section>
 		<section id="employment">
 			<h2>Employment</h2>
+			<section>
+				<div className="jobtable">
+					<div className="tablerow">
+						<span className="jobtitle">
+							<strong>Software Engineering Intern</strong>
+						</span>
+						<span className="right">June 2018 - August 2018</span>
+					</div>
+					<div className="tablerow">
+						<span>Walgreens</span>
+						<span className="right">Chicago, IL</span>
+					</div>
+				</div>
+				<ul>
+					<li>
+						Member of the Rx Renewal Team undertaking world's largest pharmacy
+						renewal program (150 million patients and 12 million prescribers).
+					</li>
+					<li>
+						Developed a REST-based microservice that invokes a Service-Broker
+						through SOAP protocol and provides REST services to search patient
+						prescriptions.
+					</li>
+					<li>
+						Built a client application with Angular 5 that consumes REST
+						services from the middleware to search the Rx records.
+					</li>
+					<li>
+						Worked in a fast-paced Agile Scrum environment with daily stand-up
+						meetings.
+					</li>
+				</ul>
+			</section>
 			<section>
 				<div className="jobtable">
 					<div className="tablerow">
@@ -141,11 +174,11 @@ const Resume = () => (
 						</tr>
 						<tr>
 							<td>Frameworks</td>
-							<td>React, Redux, Node.js, Bootstrap, Android</td>
+							<td>React, Redux, Node.js, Spring Boot, Bootstrap, Android</td>
 						</tr>
 						<tr>
 							<td>Big Data Technologies</td>
-							<td>Map Reduce, Hadoop, Spark</td>
+							<td>Map Reduce, Hadoop, Spark, Kafka</td>
 						</tr>
 						<tr>
 							<td>Database</td>
@@ -154,7 +187,7 @@ const Resume = () => (
 						<tr>
 							<td>Tools</td>
 							<td>
-								Git, Bash, Eclipse, Maven, VS Code, Atom, Android Studio,
+								Git, Bash, Eclipse, Talend, Maven, VS Code, Android Studio,
 								OpenStack
 							</td>
 						</tr>
