@@ -1,4 +1,4 @@
-#readme:before {
+#readmetext:before {
 	display: block;
 	content: ' ';
 	margin-top: -75px;
@@ -9,23 +9,29 @@
 	background-image: url('../assets/chicago.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-left: 0px;
+	min-height: 500px;
 }
 .jumbotron {
 	margin-bottom: 0px;
 }
 #readmetext {
+	margin-top: 5em;
+	margin-bottom: 5em;
 	padding: 1em;
 	padding-bottom: 0em;
 	border-radius: 25px;
 	position: relative;
-	top: 0.5em;
-	bottom: 5em;
 	background: rgb(204, 204, 204);
 	background: rgba(0, 0, 0, 0.4);
 }
 #readmetext p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 25px;
 	color: white;
 	text-shadow: 2px 2px #000000;
-	font-style: helvatica nue;
+	padding: 1em;
 }

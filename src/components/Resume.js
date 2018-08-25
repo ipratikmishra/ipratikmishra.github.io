@@ -12,8 +12,8 @@ const Resume = () => (
 		<section>
 			<h2>Objective</h2>
 			<span>
-				Computer Science graduate student seeking internship opportunities in
-				the field of Software Engineering for Summer 2018.
+				Computer Science graduate student seeking full-time opportunities in the
+				field of Software Engineering for Summer 2018.
 				<br />
 			</span>
 			<br />
@@ -198,10 +198,7 @@ const Resume = () => (
 		<section id="online">
 			<h2>Projects</h2>
 			<dl clasName="row">
-				<dt>
-					Identifying Hotspots in New York using Distributed Database (Fall
-					2017)
-				</dt>
+				<dt>Identifying Hotspots in New York using Distributed Database</dt>
 				<dd>
 					Application of spatial statistics to spatiotemporal big data to
 					identify hotspots of taxis around New York city using Apache Spark and
@@ -212,7 +209,7 @@ const Resume = () => (
 			</dl>
 			<div className="pagebreak" />
 			<dl clasName="row">
-				<dt>BraiNet - Privacy management Android App (Fall 2017)</dt>
+				<dt>BraiNet - Privacy management Android App</dt>
 				<dd>
 					Android application that uses brain signals through a brain sensor for
 					authentication in smartphones. Similar to Face ID in iPhone X but
@@ -221,6 +218,17 @@ const Resume = () => (
 					Technology: Android, Java, SQLite, XML. Github:
 					<br />
 					https://github.com/ipratikmishra/BraiNet
+				</dd>
+			</dl>
+			<div className="pagebreak" />
+			<dl clasName="row">
+				<dt>Gesture Recognition System for American Sign Language</dt>
+				<dd>
+					Implemented a feature extraction and feature deduction from the
+					dataset obtained from various sensors of a MYO wristband like
+					accelerometer, gyroscope, EMG and orientation sensors for each
+					gesture. A model was created, trained and tested with data to
+					recognize over 20 ASL symbols.
 				</dd>
 			</dl>
 			<div className="pagebreak" />
@@ -238,7 +246,7 @@ const Resume = () => (
 			</dl>
 			<div className="pagebreak" />
 			<dl clasName="row">
-				<dt>Faculty Management Website (Spring 2016) </dt>
+				<dt>Faculty Management Website</dt>
 				<dd>
 					Developed a dynamic website for faculty registration and content
 					management using JavaScript and PHP. Queried a MySQL database to

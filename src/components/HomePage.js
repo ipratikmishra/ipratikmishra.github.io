@@ -20,10 +20,16 @@ class HomePage extends Component {
 		return (
 			<div>
 				<br />
-				<Jumbotron style={{ marginBottom: '0px', marginTop: '1em' }}>
+				<Jumbotron style={{ marginBottom: '0px', marginTop: '1' }}>
 					<Row>
 						<Col xs="12" sm="12" md="3">
-							<img top width="80%" className="jumbo-center" src={MyPicture} />
+							<img
+								top
+								width="80%"
+								className="jumbo-center"
+								src={MyPicture}
+								style={{ maxWidth: '200px', marginTop: '25px' }}
+							/>
 						</Col>
 						<Col xs="12" md="9">
 							<h1 className="display-1">Pratik Mishra</h1>
@@ -45,11 +51,11 @@ class HomePage extends Component {
 				<div class="bg-img">
 					<Container>
 						<Row>
-							<Col xs="12" sm="12" md="5">
+							<Col xs="12" sm="12" md="3">
 								<br />
 								<br />
 							</Col>
-							<Col xs="12" md="7">
+							<Col xs="12" md="9">
 								<div id="readmetext">
 									<p>
 										Hey there! I am Pratik. I live in Phoenix, Arizona where I
@@ -65,6 +71,7 @@ class HomePage extends Component {
 										front-end client, that I built using Angular 5. My
 										experience with Web developement also includes working as a
 										SDE intern with frameworks such as React.js and Redux.
+										<br />
 										<br />
 										I currently work as a Student Web Developer for the
 										Herberger Institute for Design and the Arts at Arizona State
